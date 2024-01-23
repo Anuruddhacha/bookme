@@ -2,18 +2,19 @@
 
 import React from 'react'
 import { IconType } from 'react-icons';
-interface ButtobProps {
-  label:string;
-  onClick: (e:React.MouseEvent<HTMLButtonElement>)=>void;
-  disabled?:boolean;
-  outline?:boolean;
-  small?:boolean;
-  icon:IconType
+
+
+interface ButtonProps {
+  label: string;
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  disabled?: boolean;
+  outline?: boolean;
+  small?: boolean;
+  icon?: IconType;
 }
 
 
-
-const Button: React.FC<ButtobProps> = ({
+const Button: React.FC<ButtonProps> = ({
   label,
   onClick,
   disabled,

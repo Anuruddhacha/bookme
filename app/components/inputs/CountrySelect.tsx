@@ -13,12 +13,12 @@ export type CountrySelectValue = {
 }
 
 
-interface CountrySelect{
+interface CountrySelectProps{
 value?:CountrySelectValue;
 onChange:(value:CountrySelectValue) => void
 }
 
-const CountrySelect:React.FC<CountrySelectValue> = ({
+const CountrySelect:React.FC<CountrySelectProps> = ({
   value,
   onChange
 }) => {
