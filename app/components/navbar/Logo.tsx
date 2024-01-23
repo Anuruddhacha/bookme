@@ -9,14 +9,21 @@ const Logo = () => {
 
 
   return (
-    <Image
+ 
+
+   <p onClick={()=>router.push('/')}
+   className='text-[40px] text-purple-500 font-bold cursor-pointer'
+   >AuraInns</p>
+
+  );
+}
+
+export default Logo
+
+ {/*  <Image
     onClick={()=>router.push('/')}
     className='hidden md:block cursor-pointer'
     width={100}
     height={100}
     src='/images/logo.png'
-    alt='logo'/>
-  )
-}
-
-export default Logo
+  alt='logo'/> */}

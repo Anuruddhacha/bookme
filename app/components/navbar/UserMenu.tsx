@@ -51,7 +51,7 @@ const rentModel = useRentModel()
      py-3 px-4 rounded-full hover:bg-neutral-100
      transition cursor-pointer'
      >
-        Airbnb your home
+         Add a Place
      </div>
 
      <div
@@ -111,7 +111,7 @@ const rentModel = useRentModel()
       />
        <MenuItem
       onClick={onRent}
-      label='Airbnb my home'
+      label='Add to AuraInns'
       />
 
       <hr />
