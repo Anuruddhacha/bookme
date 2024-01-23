@@ -96,7 +96,7 @@ const RegisterModel = () => {
 
     const bodyContent = (
         <div className="flex flex-col gap-4">
-        <Heading center title='Welcome to Airbnb'
+        <Heading center title='Welcome to AuraInns'
         subtitle='Create an account'/>
 
         <Input id="email"

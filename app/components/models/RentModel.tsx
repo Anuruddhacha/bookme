@@ -319,7 +319,7 @@ setIsLoading(false)
     isOpen={rentModel.isOpen}
     onClose={rentModel.onClose}
     onSubmit={handleSubmit(onSubmit)}
-    title='Airbnb your home'
+    title='AuraInns your home'
     SecondaryActionLabel={secondaryActionLabel}
     actionlabel={actionLabel}
     secondaryAction={step===STEPS.CATEGORY ? undefined : onBack}/>

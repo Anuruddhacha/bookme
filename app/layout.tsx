@@ -16,8 +16,8 @@ const font = Nunito({
 
 
 export const metadata: Metadata = {
-  title: 'AirBnb',
-  description: 'AirBnb Clone',
+  title: 'AuraInns',
+  description: 'AuraInns',
 }
 
 export default async function RootLayout({
